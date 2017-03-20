@@ -7,6 +7,11 @@ body {
 }
 
 /* Estilos Generales */
+.container {
+    padding-top: 50px;
+                padding-bottom: 20px;
+}
+
 .button1 {
     background-color: #204183;
     color: #fff;
@@ -69,12 +74,16 @@ body {
 }
 
 /* Jumbotron */
+.jumbotron {
+    min-height: 500px;
+}
+
 #main-title {
     
 }
 
 #logo {
-    max-width: 200px;
+    max-width: 175px;
     min-width: 117px;
 }
 
@@ -109,3 +118,11 @@ body {
 
 
 
+
+.jumbotron {
+    background-image: url(../img/hero.jpg);
+    background-color: rgba(0,0,0,.5);
+    background-blend-mode: color;
+    background-size: cover;
+    color: white;
+}
